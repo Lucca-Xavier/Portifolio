@@ -1,0 +1,33 @@
+.about p {
+  max-width: 62ch;
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 14px 24px;
+  margin-top: 40px;
+}
+
+.skills dt {
+  color: var(--muted);
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.skills dd {
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .skills dd {
+    margin-bottom: 14px;
+  }
+}

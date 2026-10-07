@@ -1,0 +1,90 @@
+.hero {
+  padding-top: 120px;
+  min-height: 86vh;
+}
+
+.hero h1 {
+  font: 800 clamp(52px, 9vw, 112px)/0.92 var(--display);
+  letter-spacing: -0.045em;
+  margin: 0 0 32px;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--accent);
+}
+
+.hero p {
+  max-width: 520px;
+  font-size: 20px;
+  color: var(--muted);
+  margin: 0 0 36px;
+}
+
+.btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+}
+
+.main {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0b0618;
+}
+
+.main:hover {
+  background: #a67ffa;
+}
+
+.facts {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-top: 72px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.facts b {
+  display: block;
+  font: 700 28px/1.1 var(--display);
+}
+
+.facts span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero h1 {
+    animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+@media (max-width: 860px) {
+  .hero {
+    min-height: auto;
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,93 @@
+:root {
+  --bg: #050505;
+  --panel: #0d0d0f;
+  --line: #222226;
+  --text: #ece9f2;
+  --muted: #8c8996;
+  --accent: #9266f7;
+  --accent-soft: #2a1d52;
+  --side: 264px;
+  --display: 'Bricolage Grotesque', 'Segoe UI', sans-serif;
+  --body: 'Hanken Grotesk', 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 16px/1.65 var(--body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+main {
+  margin-left: var(--side);
+  padding: 0 clamp(24px, 5vw, 72px);
+}
+
+section {
+  max-width: 860px;
+  padding: 96px 0 40px;
+}
+
+#outlet {
+  animation: swap 0.18s ease-out;
+}
+
+@keyframes swap {
+  from {
+    opacity: 0;
+  }
+}
+
+h2 {
+  font: 700 15px/1 var(--body);
+  color: var(--accent);
+  margin: 0 0 32px;
+}
+
+footer {
+  padding: 64px 0 40px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 860px) {
+  main {
+    margin-left: 0;
+  }
+  section {
+    padding-top: 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #outlet {
+    animation: none;
+    transition: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: dark;
+  }
+}

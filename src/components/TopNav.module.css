@@ -1,0 +1,42 @@
+.top {
+  display: none;
+}
+
+.brand {
+  font: 800 20px/1 var(--display);
+  letter-spacing: -0.02em;
+}
+
+.brand span {
+  color: var(--accent);
+}
+
+.top a {
+  color: var(--muted);
+  font-weight: 500;
+  flex: none;
+  font-size: 15px;
+}
+
+.top a.on {
+  color: var(--text);
+}
+
+@media (max-width: 860px) {
+  .top {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    padding: calc(14px + env(safe-area-inset-top, 0px)) 20px 14px;
+    gap: 20px;
+    overflow-x: auto;
+    align-items: center;
+  }
+
+  .top .brand {
+    flex: none;
+  }
+}

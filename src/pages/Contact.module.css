@@ -1,0 +1,24 @@
+.big {
+  font: 800 clamp(28px, 5vw, 52px)/1.1 var(--display);
+  letter-spacing: -0.03em;
+  word-break: break-word;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  transition: color 0.15s;
+}
+
+.big:hover {
+  color: var(--accent);
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  color: var(--muted);
+}
+
+.links a:hover {
+  color: var(--text);
+}

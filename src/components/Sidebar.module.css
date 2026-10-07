@@ -1,0 +1,99 @@
+.side {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--side);
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.brand {
+  font: 800 20px/1 var(--display);
+  letter-spacing: -0.02em;
+}
+
+.brand span {
+  color: var(--accent);
+}
+
+.role {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 8px 0 40px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-left: -12px;
+  border-radius: 8px;
+  color: var(--muted);
+  font-weight: 500;
+  transition: color 0.15s, background 0.15s;
+}
+
+.nav a svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+
+.nav a:hover {
+  color: var(--text);
+}
+
+.nav a.on {
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+.nav a.on svg {
+  stroke: var(--accent);
+}
+
+.sideFoot {
+  margin-top: auto;
+  font-size: 14px;
+  color: var(--muted);
+  display: grid;
+  gap: 10px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.sideFoot a:hover {
+  color: var(--text);
+}
+
+@media (max-width: 860px) {
+  .side {
+    display: none;
+  }
+}
