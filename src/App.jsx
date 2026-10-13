@@ -33,7 +33,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    document.title = `${nav.find((item) => item.id === route).label} — Seu Nome`
+    document.title = `${nav.find((item) => item.id === route).label} — Lucca Xavier`
     window.scrollTo(0, 0)
   }, [route])
 
