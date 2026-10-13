@@ -5,7 +5,7 @@ function TopNav({ active }) {
   return (
     <header className={styles.top}>
       <div className={styles.brand}>
-        seu<span>.</span>nome
+        Lucca<span>.</span>Xavier
       </div>
       {nav.map((item) => (
         <a
