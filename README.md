@@ -261,7 +261,8 @@ npm run lint
 | Lucca Xavier | [Lucca-Xavier](https://github.com/Lucca-Xavier) | [Lucca-Xavier](https://www.linkedin.com/in/lucca-xavier-bb0a462b2/) | [luccacxavier@gmail.com](mailto:luccacxavier@gmail.com) |
 
 ---
-
+Link do Portfolio:
+https://lucca-xavier.vercel.app
 
 ---
 
