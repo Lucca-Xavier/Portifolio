@@ -1,4 +1,4 @@
-# 💜 Portfólio Pessoal — Seu Nome 👨‍💻
+# 💜 Portfólio Pessoal — Lucca Campos Xavier 👨‍💻
 
 > [!NOTE]
 > Meu portfólio pessoal: um espaço para apresentar quem eu sou, os projetos que construí e minha trajetória como desenvolvedor backend.
@@ -16,9 +16,9 @@
 ![React](https://img.shields.io/badge/React-18-007ec6?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-007ec6?style=for-the-badge&logo=vite&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-6-007ec6?style=for-the-badge&logo=reactrouter&logoColor=white)
-![Licença](https://img.shields.io/github/license/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge&color=9266f7)
-![Último commit](https://img.shields.io/github/last-commit/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge&logo=clockify)
-![Tamanho do repositório](https://img.shields.io/github/repo-size/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge&logo=files)
+![Licença](https://img.shields.io/github/license/Lucca-Xavier/Portifolio?style=for-the-badge&color=9266f7)
+![Último commit](https://img.shields.io/github/last-commit/Lucca-Xavier/Portifolio?style=for-the-badge&logo=clockify)
+![Tamanho do repositório](https://img.shields.io/github/repo-size/Lucca-Xavier/Portifolio?style=for-the-badge&logo=files)
 
 ---
 
@@ -40,7 +40,6 @@
 - [Qualidade de Código](#-qualidade-de-código)
 - [Documentações Utilizadas](#-documentações-utilizadas)
 - [Autor](#-autor)
-- [Agradecimentos](#-agradecimentos)
 - [Licença](#-licença)
 
 ---
@@ -259,7 +258,7 @@ npm run lint
 
 | 👤 Nome | :octocat: GitHub | 💼 LinkedIn | 📤 E-mail |
 |---------|------------------|-------------|-----------|
-| Seu Nome | [Lucca-Xavier](https://github.com/Lucca-Xavier) | [Lucca-Xavier](https://www.linkedin.com/in/lucca-xavier-bb0a462b2/) | [luccacxavier@gmail.com](mailto:luccacxavier@gmail.com) |
+| Lucca Xavier | [Lucca-Xavier](https://github.com/Lucca-Xavier) | [Lucca-Xavier](https://www.linkedin.com/in/lucca-xavier-bb0a462b2/) | [luccacxavier@gmail.com](mailto:luccacxavier@gmail.com) |
 
 ---
 
