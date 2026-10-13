@@ -1,5 +1,5 @@
 function Footer() {
-  return <footer>© 2026 Seu Nome</footer>
+  return <footer>© 2026 Lucca Xavier</footer>
 }
 
 export default Footer

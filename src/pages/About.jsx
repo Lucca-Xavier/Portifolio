@@ -7,12 +7,12 @@ function About() {
     <section className={styles.about}>
       <h2>Sobre</h2>
       <p>
-        Escreva aqui dois ou três parágrafos curtos. Diga o que você faz, o que gosta de resolver e o
-        que está aprendendo agora.
+        Sou um desenvolvedor full stack em formação, apaixonado por tecnologia e resolução de problemas. Tenho experiência prática com .NET, Java, React, e Angular. Além de já ter atuado em projetos reais de sistemas administrativos ERP. Gosto de aprender na prática e transformar ideias em soluções úteis.
+
       </p>
       <p>
-        Prefira frases diretas e específicas: tecnologias que você usa de verdade e o tipo de
-        problema que te interessa.
+        Quando não estou codando, gosto de estudar novas tecnologias, jogar videogames e passar tempo com meus amigos e família. Sempre em busca de novos desafios e oportunidades de crescimento profissional.
+
       </p>
       <dl className={styles.skills}>
         {Object.entries(skills).map(([key, value]) => (

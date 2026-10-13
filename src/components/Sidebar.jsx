@@ -5,7 +5,7 @@ function Sidebar({ active }) {
   return (
     <aside className={styles.side}>
       <div className={styles.brand}>
-        seu<span>.</span>nome
+        Lucca<span>_</span>Xavier
       </div>
       <div className={styles.role}>Desenvolvedor backend</div>
       <nav className={styles.nav}>
@@ -26,7 +26,7 @@ function Sidebar({ active }) {
         <div className={styles.status}>
           <i></i>Aberto a oportunidades
         </div>
-        <a href="mailto:voce@email.com">voce@email.com</a>
+        <a href="mailto:luccacxavier@gmail.com">luccacxavier@gmail.com</a>
       </div>
     </aside>
   )

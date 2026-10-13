@@ -4,12 +4,12 @@ function Home() {
   return (
     <section className={styles.hero}>
       <h1>
-        Seu
+        Lucca
         <br />
-        Nome <em>Aqui</em>
+        Campos <em>Xavier</em>
       </h1>
       <p>
-        Estudante de Engenharia de Software. Construo APIs e sistemas que ficam de pé em produção.
+        Estudante de Engenharia de Software na PUC Minas. Apaixonado por programação e buscando sempre aprender e compartilhar conhecimento.
       </p>
       <div className={styles.btns}>
         <a className={`${styles.btn} ${styles.main}`} href="#/projetos">
@@ -21,7 +21,7 @@ function Home() {
       </div>
       <div className={styles.facts}>
         <div>
-          <b>4 anos</b>
+          <b>5 anos</b>
           <span>programando</span>
         </div>
         <div>
@@ -29,7 +29,7 @@ function Home() {
           <span>de experiência</span>
         </div>
         <div>
-          <b>5</b>
+          <b>3</b>
           <span>projetos entregues</span>
         </div>
       </div>
